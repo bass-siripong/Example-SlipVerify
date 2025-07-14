@@ -2,8 +2,8 @@
 session_start();
 include 'conn.php';
 
-$clientId = 'o2sj72dozf4szxnl';
-$clientSecret = 'b2j6evh4efisuc7ln3dg0ucthmbqqwwm';
+$clientId = '$clientId';
+$clientSecret = '$clientSecret';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $uploadDir = __DIR__ . '/slips/';
@@ -65,11 +65,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['responseData'] = "❌ ไม่สามารถอ่านข้อมูลจาก API ได้";
     }
 
-    $responseRaw = curl_exec($ch);  // รับ raw string
+    $responseRaw = curl_exec($ch);
     $response = @json_decode($responseRaw);
     curl_close($ch);
 
-    $_SESSION['api_response_raw'] = $responseRaw;  // เก็บผลลัพธ์ JSON
+    $_SESSION['api_response_raw'] = $responseRaw;
 
     header("Location: index.php");
     exit();
