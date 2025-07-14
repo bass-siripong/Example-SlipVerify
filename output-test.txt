@@ -1,0 +1,73 @@
+stdClass Object
+(
+    [discriminator] => 030.519017849862I000026B9790
+    [valid] => 1
+    [data] => stdClass Object
+        (
+            [language] => 
+            [transRef] => 519017849862I000026B9790
+            [sendingBank] => 030
+            [receivingBank] => 
+            [transDate] => 20250709
+            [transTime] => 17:53:46
+            [sender] => stdClass Object
+                (
+                    [displayName] => นาย ศิริพงศ์ บ
+                    [name] => 
+                    [proxy] => stdClass Object
+                        (
+                            [type] => 
+                            [value] => 
+                        )
+
+                    [account] => stdClass Object
+                        (
+                            [type] => BANKAC
+                            [value] => 0202xxxx6462
+                        )
+
+                )
+
+            [receiver] => stdClass Object
+                (
+                    [displayName] => MISS HOM M
+                    [name] => HOM M
+                    [proxy] => stdClass Object
+                        (
+                            [type] => MSISDN
+                            [value] => 09xxxx4630
+                        )
+
+                    [account] => stdClass Object
+                        (
+                            [type] => 
+                            [value] => 
+                        )
+
+                )
+
+            [amount] => 20
+            [paidLocalAmount] => 
+            [paidLocalCurrency] => 
+            [countryCode] => TH
+            [transFeeAmount] => 
+            [ref1] => 
+            [ref2] => 
+            [ref3] => 
+            [toMerchantId] => 
+        )
+
+    [quota] => stdClass Object
+        (
+            [usage] => 1
+            [limit] => 40
+        )
+
+    [subscription] => stdClass Object
+        (
+            [id] => nx86jhcqip3xzne2lke4zj9n
+            [postpaid] => 
+        )
+
+    [isCached] => 
+)
